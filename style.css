@@ -591,7 +591,11 @@ iframe {
   .navbar {
     background-color: rgba(0, 88, 92, 1);
   }
-
+  
+  .contene {
+    margin-top: 4px;
+  }
+  
   .top {
     bottom: 10px;
     right: 10px;
