@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Travel.com</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/all.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="w3school/w3.css">
+
+	<link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="owl.theme.default.css"> -->
+	<link rel="stylesheet" type="text/css" href="owl.theme.default.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+	<style type="text/css">
+		.wrapper1 {
+			width: 110%;
+			height: auto;
+			overflow: hidden;
+		}
+
+		html,
+		body {
+			position: relative;
+			height: 100%;
+		}
+
+		.swiper {
+			width: 100%;
+			height: 100%;
+		}
+
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.swiper {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.swiper:hover {
+			transform: translateY(-25px);
+			transition: 0.4s;
+		}
+	</style>
+
+</head>
+
+<body style="font-family: 'Poppins', sans-serif !important;">
+
+	<!-- scroll Top -->
+	<div class="top d-none">
+		<div class="link-top w3-animate-zoom rounded" onclick="gotop();"><i class="fas fa-arrow-up"></i></div>
+	</div>
+	<!-- end scroll Top -->
+
+	<!-- preeload -->
+	<!-- <div class="preloader">
+	  <div class="loading">
+	    <div class="spinner-grow text-primary" role="status">
+		  <span class="sr-only">Loading...</span>
+		</div>
+	  </div>
+	</div> -->
+
+
+
+	<!-- navbar -->
+	<nav class="navbar nav-fixed navbar-expand-lg" style="font-family: 'Poppins', sans-serif !important;">
+		<div class="container">
+			<a class="navbar-brand text-light" href="#">
+				<h3><b>LOGO</b></h3>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class=""><i class="fas fa-align-justify text-light"></i></span>
+			</button>
+
+			<div class="collapse text-light text-bold navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto ">
+					<li class="nav-item">
+						<a class="nav-link smooth-scroll" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-scroll" href="#">Service</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link smooth-scroll" href="hubungi_kami.html">Hubungi Kami</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- end navbar -->
+
+	<!-- section -->
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 w3-animate-left sec text-dark object" data-value="-2">
+					<h2 class="object" data-value="7" style="font-weight: bold; text-shadow: 1px 2px 2px;">PAKET TOUR &
+						TRAVEL MOBIL</h2>
+					<p class="object" data-value="5"> Rencanakan perjalanan Anda bersama travelku, Pesan tiket travel
+						shuttle semudah belanja online Percayakan perjalanan travel Anda yang nyaman & aman bersama
+						kami.</p>
+					<a href="#layanan-travel" class="smooth-scroll object"
+						style="text-decoration: none; color: white;">Booking Sekarang!</a>
+				</div>
+
+				<div class="col-md-4 mt-4 w3-animate-right">
+					<div class="gambar">
+						<div class="wrapper1" style="margin-top: 120px;">
+							<div class="owl-carousel owl-theme">
+
+								<div class="item">
+									<img src="./gambar/mobil-logo.png" class="object">
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- end section -->
+
+	<div class="ombak">
+		<!--Waves Container-->
+		<div>
+			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+				<defs>
+					<path id="gentle-wave"
+						d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+				</g>
+			</svg>
+		</div>
+	</div>
+	<!--Waves end-->
+
+
+	<!-- info -->
+	<div class="conten">
+		<div class="container">
+			<div class="info">
+				<div class="ott shadow rounded">
+					<div class="row">
+						<div class="col-lg">
+							<div class="row">
+								<div class="col-lg-4 mt-3">
+									<img src="gambar/Customer.png" width="80">
+								</div>
+								<div class="col-lg-8">
+									<h5 class="text-dark font-weight-bolder layanan">Service 24 Jam</h5>
+									<p class="layanan" style="font-size: 10.5px;">Layanan Customer Service 24 Jam, <br>
+										Jadi,kapan pun Anda punya <br> pertanyaan,kami akan selalu <br> siap membantu
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="row">
+								<div class="col-lg-4 mt-3">
+									<img src="gambar/info.png" width="80">
+								</div>
+								<div class="col-lg-8">
+									<h5 class="text-dark font-weight-bolder layanan">Informasi Lengkap</h5>
+									<p class="layanan" style="font-size: 10.5px;">Mulai Dari Info Jadwal Travel, <br>
+										Titik berangkat dan Turun, <br>
+										Hingga Fasilitas Terlengkap
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg">
+							<div class="row">
+								<div class="col-lg-4 mt-3">
+									<img src="gambar/Pembayaran.png" width="80">
+								</div>
+								<div class="col-lg-8">
+									<h5 class="text-dark layanan font-weight-bolder">pembayaran Mudah</h5>
+									<p class="layanan" style="font-size: 10.5px;">Kami Menyediakan Beragam cara
+										Pembayaran, <br>
+										Dari Pembayaran Transfer Bank Hingga pembayaran Tunai
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!-- end info -->
+
+	<!-- layanan -->
+	<div class="layanan-travel" id="layanan-travel">
+		<div class=" container text-center layanan-travel">
+			<div class="judullayanan">
+				<h2 style="color: #00585c;"><b>Layanan Travel dari Berbagai Provinsi</b></h2>
+				<p class="text-dark">Silahkan Pilih Agen Travel Terbaik Kami Dari Berbagai Provinsi</p>
+				<div class="mb-4"
+					style="height: 1px; margin: auto; width: 70px; margin-bottom: 10px; border-bottom: 3px solid  #00585c;">
+				</div>
+			</div>
+			<div class="slides">
+				<div class="slide">
+					<a href="pilihan_destinasi.html"><img src="gambar/banner2.jpg" alt=""></a>
+				</div>
+				<div class="slide">
+					<a href="pilihan_destinasi.html"><img src="gambar/banner1.jpg" alt=""></a>
+				</div>
+				<div class="navigation">
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(-1)">&#10095;</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- end layanan -->
+
+	<!-- rute favorit -->
+	<div class="rute-favorit mb-5">
+		<div class="container">
+			<div class="judul-favorit">
+				<h2><b>Rute Travel Favorit</b></h2>
+				<p>Daftar Tujuan Destinasi Terfavorit Dari Berbagai Provinsi</p>
+				<div class="mb-5"
+					style="height: 3px; margin: auto; width: 70px; margin-bottom: 10px; border-bottom: 3px solid white;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="item shadow rounded bg-light mt-3">
+						<div class="favorit text-center p-4">
+							<img src="gambar/mobil.png" style="width: 100%;">
+							<p class="text-dark pt-3"><b>Lampung</b></p>
+							<h3 class="text-dark" style="font-weight: bold;">Harga</h3>
+							<h3 style="color: #00585c; font-weight: bold;">Rp.150.000</h3>
+							<a href="#" class="btn text-light" style="background-color: #00585c">Pesan Sekarang</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="item shadow rounded bg-light mt-3">
+						<div class="favorit text-center p-4">
+							<img src="gambar/mobil.png" style="width: 100%;">
+							<p class="text-dark pt-3"><b>DKI Jakarta</b></p>
+							<h3 class="text-dark" style="font-weight: bold;">Harga</h3>
+							<h3 style="color: #00585c; font-weight: bold;">Rp.150.000</h3>
+							<a href="#" class="btn text-light" style="background-color: #00585c">Pesan Sekarang</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="item shadow rounded bg-light mt-3">
+						<div class="favorit text-center p-4">
+							<img src="gambar/mobil.png" style="width: 100%;">
+							<p class="text-dark pt-3"><b>Jawa Barat</b></p>
+							<h3 class="text-dark" style="font-weight: bold;">Harga</h3>
+							<h3 style="color: #00585c; font-weight: bold;">Rp.150.000</h3>
+							<a href="#" class="btn text-light" style="background-color: #00585c">Pesan Sekarang</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="item shadow rounded bg-light mt-3">
+						<div class="favorit text-center p-4">
+							<img src="gambar/mobil.png" style="width: 100%;">
+							<p class="text-dark pt-3"><b>Bali</b></p>
+							<h3 class="text-dark" style="font-weight: bold;">Harga</h3>
+							<h3 style="color: #00585c; font-weight: bold;">Rp.150.000</h3>
+							<a href="#" class="btn text-light" style="background-color: #00585c">Pesan Sekarang</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- end rute favorit -->
+
+	<!-- testimoni -->
+	<div class="testimoni" style="margin-top: 80px;" id="testimoni">
+		<div class="container">
+			<div class="judul-testimoni text-center">
+				<h2 style="color: #00585c;"><b>Testimoni</b></h2>
+				<p>Apa Kata Mereka?</p>
+				<div
+					style="height: 3px; margin: auto; width: 70px; margin-bottom: 50px; border-bottom: 3px solid #00585c;">
+				</div>
+			</div>
+			<div class="testi container shadow swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="card card-testi border-0 text-center">
+							<img src="gambar/user.jpg" class="align-self-center rounded-circle" style="width: 80px;">
+							<h4 class="text-center font-weight-bolder mt-2" style="color: #00585c;">Happy Syahrul
+								Ramadhan</h4>
+							<div class="mt-1 card-star align-self-center d-flex">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+							</div>
+							<p class="align-self-center mt-3">Keren pokonya Travelku.com pelayanannya sangat ramah dan
+								juga fast respon, rekommended banget buat kalian yang lagi bingung mau nyari tempat
+								liburan di Indonesia
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="card card-testi border-0 text-center">
+							<img src="gambar/user.jpg" class="align-self-center rounded-circle" style="width: 80px;">
+							<h4 class="text-center font-weight-bolder mt-2" style="color: #00585c;">Eggi Satria</h4>
+							<div class="mt-1 card-star align-self-center d-flex">
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+							</div>
+							<p class="align-self-center mt-3">Keren pokonya Travelku.com pelayanannya sangat ramah dan
+								juga fast respon, rekommended banget buat kalian yang lagi bingung mau nyari tempat
+								liburan di Indonesia
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end testimoni -->
+
+	<!--Metode pembayaran -->
+	<div class="jumbotron mb-0" style="padding: 20px 0; margin-top: 100px;">
+		<div class="container mb-0">
+			<h5 class="font-weight-bolder mb-0">Pembayaran Dapat Melalui</h5>
+
+			<img src="gambar/cod.png">
+
+			<img src="gambar/bca.png">
+
+			<img src="gambar/ovo.png">
+
+			<img src="gambar/mandiri.png">
+
+		</div>
+	</div>
+	<!-- end Metode pembayaran -->
+
+
+
+
+	<!-- Footer -->
+	<div class="footer" style="background-color: #00585c; padding: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 mt-5">
+					<h2 class="text-light"><b>Travelku.com</b></h2>
+					<p class="text-light">Travelku.com adalah Agen travel executive yang melayani transportasi penumpang
+						antar kota, dan kami adalah salah satu agen reservasi online untuk pemesanan tiket travel
+						executive.</p>
+				</div>
+
+
+				<div class="col-md-4">
+					<h2 class="text-light"><b>Halaman</b></h2>
+					<hr>
+					<ul class="text-light">
+						<li><a style="color: white; text-decoration: none;">Rute Travel</a></li>
+						<li><a style="color: white; text-decoration: none;">Pemesanan</a></li>
+						<li><a style="color: white; text-decoration: none;">Daftar Kota</a></li>
+
+					</ul>
+				</div>
+
+
+				<div class="col-md-4">
+					<h2 class="text-light"><b>Provinsi Tujuan</b></h2>
+					<hr>
+					<ul class="text-light">
+						<li><a style="color: white; text-decoration: none;" href="#">Bali</a></li>
+						<li><a style="color: white; text-decoration: none;" href="#">Lampung</a></li>
+						<li><a style="color: white; text-decoration: none;" href="#">Jawa Barat</a></li>
+						<li><a style="color: white; text-decoration: none;" href="#">DKI Jakarta</a></li>
+						<li><a style="color: white; text-decoration: none;" href="#">DIY Yogyakarta</a></li>
+						<li><a style="color: white; text-decoration: none;" href="#">Sumatera Barat</a></li>
+					</ul>
+				</div>
+			</div>
+			<br><br><br><br>
+
+			<p class="text-light text-center"> <b>Travelku.com</b> V.1.1 &copy;Copyright 2022. All Rights Reserved.</p>
+		</div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<script type="text/javascript">
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("slide");
+			if (n > slides.length) {
+				slideIndex = 1;
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slides[slideIndex - 1].style.display = "block";
+		}
+
+		var swiper = new Swiper(".mySwiper", {
+			autoplay: {
+				delay: 2000,
+				disableOnInteraction: false
+			},
+			slidesPerView: 1,
+			spaceBetween: 30,
+			loop: true,
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev"
+			}, pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			}
+		});
+
+		document.addEventListener("mousemove", parallax);
+		function parallax(e) {
+			document.querySelectorAll(".object").forEach(function (move) {
+
+				var moving_value = move.getAttribute("data-value");
+				var x = (e.clientX * moving_value) / 250;
+				var y = (e.clientY * moving_value) / 250;
+
+				move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+			});
+		}
+
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="owl.carousel.js"></script>
+
+	<script type="text/javascript" src="owl.carousel.min.js"></script>
+
+	<script type="text/javascript" src="jquer.js"></script>
+
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+	<script type="text/javascript" src="js/popper.min.js"></script>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
