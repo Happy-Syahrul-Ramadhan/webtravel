@@ -982,7 +982,7 @@ form {
     font-size: 11px;
   }
 
-  .container {
+  .login-content {
     grid-template-columns: 1fr;
   }
 
