@@ -96,7 +96,7 @@ section {
   height: 620px;
   width: 100%;
   margin-top: 80.38px;
-  background: linear-gradient(rgba(0, 88, 92, 0.5), rgba(0, 88, 92, 1)), url('gambar/bg-pantai.jfif');
+  background: linear-gradient(rgba(0, 88, 92, 0.3), rgba(0, 88, 92, 1)), url('gambar/bg-pantai.jfif');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
