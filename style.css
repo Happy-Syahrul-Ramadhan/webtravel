@@ -983,7 +983,7 @@ form {
   }
 
   .login-content {
-    grid-template-columns: 100%;
+    width: 305px;
   }
 
   .img {
