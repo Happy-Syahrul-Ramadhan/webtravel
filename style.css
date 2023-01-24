@@ -609,7 +609,7 @@ iframe {
   }
 
   .top:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
 
   section {
