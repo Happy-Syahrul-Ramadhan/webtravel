@@ -602,6 +602,7 @@ iframe {
     right: 5px;
     font-size: 13px;
     background: rgba(0, 88, 92, 0.9);
+    transition: 0.5s; 
   }
   
   .link-top:hover {
