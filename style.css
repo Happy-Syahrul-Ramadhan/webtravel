@@ -86,7 +86,7 @@ html::-webkit-scrollbar-track {
 }
 
 .link-top {
-  background: rgba(0, 88, 92, 0.5);
+  background: #00585c;
   border: 1px solid white;
   color: #FFF;
   cursor: pointer;
